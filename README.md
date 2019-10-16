@@ -2,22 +2,22 @@
 
 <hr>
 
-> <h3><b>v1.0 :</b></h3>
+<h3><b>v1.0 :</b></h3>
 
->> Updates:
+> Updates:
 + Added Flask Deployment
 
->> Bugs to fix:
+> Bugs to fix:
 - Fix the CSS not showing up
 - Fix the plots now showing up
 
->> What's next:
+> What's next:
 + Try showing the training console output on the webpage.
 + Try plotting the predictions and graph on the same page.
 
 <hr>
 
-> <h3><b>v0.0 :</b></h3>
+<h3><b>v0.0 :</b></h3>
 
 The Base Structure with pyhton and predictions!
 
