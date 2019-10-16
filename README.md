@@ -2,7 +2,7 @@
 
 <hr>
 
-> <b>v1.0 :</b>
+> <h3><b>v1.0 :</b></h3>
 
 >> Updates:
 + Added Flask Deployment
@@ -17,7 +17,7 @@
 
 <hr>
 
-> <b>v0.0 :</b>
+> <h3><b>v0.0 :</b></h3>
 
 The Base Structure with pyhton and predictions!
 
