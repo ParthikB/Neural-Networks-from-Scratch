@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Deep Neural Network Playground</title>
+    <h1>DNN Playground</h1>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <form class="forms" method='POST' action='/prediction'>
+
+        <div class="formGroup">
+            <label for="TRAINING_SAMPLES">
+                Training Samples
+            </label>
+            <input type="number" name="TRAINING_SAMPLES" placeholder="Enter the number of training samples.">
+        </div>
+
+        <input class="checkSamples" type="submit" value="Check Samples!">
+
+        <div class="formGroup">
+            <label for="LAYER_DIMS">
+                Hidden Layer 1 Nodes
+            </label>
+            <input type="number" name="LAYER1_DIM" placeholder="Enter the Layer Dimensions of the Network">
+        </div>
+
+        <div class="formGroup">
+            <label for="LAYER_DIMS">
+                Hidden Layer 2 Nodes
+            </label>
+            <input type="number" name="LAYER2_DIM" placeholder="Enter the Layer Dimensions of the Network">
+        </div>
+
+        <div class="formGroup">
+            <label for="LAYER_DIMS">
+                Output Layer Nodes
+            </label>
+            <input type="number" name="LAYER3_DIM" placeholder="Enter the Layer Dimensions of the Network">
+        </div>
+
+        <div class="formGroup">
+            <label for="EPOCHS">
+                Epochs
+            </label>
+            <input type="number" name="EPOCHS" placeholder="Enter the number of iterations">
+        </div>
+
+        <div class="formGroup">
+            <label for="LEARNING_RATE">
+                Learning Rate
+            </label>
+            <input type="text" name="LEARNING_RATE" placeholder="Enter the Learning Rate">
+        </div>
+
+        <div class="formGroup">
+            <label for="ACTIVATION">
+                Activation type
+            </label>
+            <input type="text" name="ACTIVATION" placeholder="Enter the Activation type">
+        </div>
+
+        <input class="submit" type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>

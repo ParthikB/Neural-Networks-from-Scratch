@@ -2,6 +2,9 @@
   These are some helper functions which we'll need to create our DNN.
 
 """
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Generating a basic dataset.
 def create_data(total_samples, range_of_data):
@@ -25,9 +28,9 @@ def create_data(total_samples, range_of_data):
 
 # Defining Activation Functions
 def sigmoid(z):
-  A =  1 / (1 + np.exp(-z))
-  cache = z
-  return A, cache
+    A =  1 / (1 + np.exp(-z))
+    cache = z
+    return A, cache
 
 
 def relu(Z):
@@ -65,28 +68,30 @@ def initialize_random_parameters(layer_dims, X):
   
 # To check the accuracy of our Model.
 def accuracy_score(Yhat, Y):
-  Yhat = np.where(Yhat < 0.5, 0, 1)
-  accuracy = 100 - np.mean(np.abs(Yhat-Y) * 100)
-  return accuracy
+    Yhat = np.where(Yhat < 0.5, 0, 1)
+    accuracy = 100 - np.mean(np.abs(Yhat-Y) * 100)
+    return accuracy
 
 
 # To visualize our dataset/predictions.
-def plot_data(data, type_of_data):
+def plot_data(data, type_of_data='original'):
     X = data[0]
     Y = data[1]
     sns.scatterplot(X[0], X[1], hue=Y[0])
     plt.xlabel('Feature 1')
     plt.ylabel("Feature 2")
     plt.title(type_of_data)
-    type_of_data = 'Plots : ' + type_of_data + ".png"
+    type_of_data = 'graphs/' + type_of_data + 'Dataset' + ".png"
     plt.savefig(type_of_data)
+    # plt.show()
     plt.close()
 
     
 def plot_cost_function(epoch_log, cost_log):
-  plt.plot(epoch_log, cost_log)
-  plt.xlabel('Epochs')
-  plt.ylabel("Cost")
-  plt.title("Cost Function")
-  plt.savefig('Plots : Cost Function.png')
-  plt.close()
+    plt.plot(epoch_log, cost_log)
+    plt.xlabel('Epochs')
+    plt.ylabel("Cost")
+    plt.title("Cost Function")
+    plt.savefig('graphs/costFunction.png')
+    #   plt.show()
+    plt.close()

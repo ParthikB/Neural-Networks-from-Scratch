@@ -5,7 +5,8 @@
   Have fun!
 
 """
-
+import numpy as np
+from helper_functions import *
 
 class NeuralNetwork:    
   
