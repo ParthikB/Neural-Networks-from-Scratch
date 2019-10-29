@@ -4,7 +4,7 @@ This is where we create a <b>Deep Neural Network (DNN)</b> from scratch!
 
 
 If you're already familier with the concept, then just go ahead. But if you don't then visit,
-https://medium.com/@rockon.parthik555/neural-networks-in-a-nutshell-5f989409082c
+https://parthiktalks.blogspot.com/2019/10/neural-networks-in-nutshell-from-scratch.html
 to get introduced to Neural Networks and learn how it is created!
 
 
