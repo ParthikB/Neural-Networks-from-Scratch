@@ -11,4 +11,5 @@ to get introduced to Neural Networks and learn how it is created!
 Also, you can't play with this directly in my playground and tinker with different parameters or even code itself.
 https://repl.it/@ParthikBhandari/Neural-Network
 
+LinkedIn : https://www.linkedin.com/in/parthikb
 Thanks for visiting!
