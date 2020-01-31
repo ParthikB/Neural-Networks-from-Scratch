@@ -13,4 +13,4 @@ https://repl.it/@ParthikBhandari/Neural-Network
 
 LinkedIn : https://www.linkedin.com/in/parthikb
 
-_Peace out.
+_Peace out._
