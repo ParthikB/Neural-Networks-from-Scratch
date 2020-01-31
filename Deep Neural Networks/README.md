@@ -12,5 +12,4 @@ Also, you can play with this directly in my playground and tinker with different
 https://repl.it/@ParthikBhandari/Neural-Network
 
 LinkedIn : https://www.linkedin.com/in/parthikb
-
-Thanks for visiting!
+Peace out.
