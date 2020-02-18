@@ -20,5 +20,5 @@ As the name suggests, a complete Neural Network made from scratch using pure mat
 
 <h3><b>v0.0 :</b></h3>
 
-The Base Structure with python and predictions!
+The Base Structure with python and predictions!!
 
