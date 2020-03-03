@@ -1,6 +1,7 @@
 # Neural Networks from Scratch
 As the name suggests, a complete Neural Network made from scratch using pure mathematics. Not using any kind of machine learning library, just numpy for math functions.
 
+
 <hr>
 
 <h3><b>v1.0 :</b></h3>
